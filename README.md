@@ -22,6 +22,9 @@ _python -m pytest_
 _python -m src.Moves.Moves_
 _python -m src.Matrix.Matrix_
 
+_python -m tests/test_moves.py_
+_python -m tests/test_matrix.py_
+
 ## test coverage
 
 _coverage erase_
