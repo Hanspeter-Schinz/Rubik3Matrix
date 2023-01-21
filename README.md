@@ -18,22 +18,25 @@ To try the performed tests, run this command:
 _python -m pytest_
 
 ## run the single modules
-
 _python -m src.Moves.Moves_
+
 _python -m src.Matrix.Matrix_
 
 ### Linux
 _python tests/test_moves.py_
+
 _python tests/test_matrix.py_
 
 ### Windows
 _python tests\test_moves.py_
+
 _python tests\test_matrix.py_
 
 ## test coverage
-
 _coverage erase_
+
 _coverage run -m pytest_
+
 _coverage html --omit */tests/* && firefox ./htmlcov/index.html_
 
 ## Local testing any python module
