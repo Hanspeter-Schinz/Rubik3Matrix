@@ -34,15 +34,7 @@ _python tests\test_matrix.py_
 
 _coverage erase_
 _coverage run -m pytest_
-
-### Linux
-_coverage html --omit */tests/* && open ./htmlcov/index.html_
-or
 _coverage html --omit */tests/* && firefox ./htmlcov/index.html_
-
-### Windows
-'/' and '\' allowed
-_coverage html --omit */tests/* && start firefox .\htmlcov\index.html_
 
 ## Local testing any python module
 
